@@ -36,3 +36,7 @@ Thumbs.db
 # Local Interview & Master Guides (Never commit to Git)
 Zepto_Master_Guide_And_Interview_Prep.*
 *Interview_Prep*
+
+# Ignore End-to-End Concepts Guides
+Zepto_All_Concepts*
+*Concepts*
