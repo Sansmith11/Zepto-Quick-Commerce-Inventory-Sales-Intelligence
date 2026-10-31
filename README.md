@@ -1,4 +1,4 @@
-# ⚡ Zepto Quick-Commerce Inventory & Sales Intelligence Platform
+#  Zepto Quick-Commerce Inventory & Sales Intelligence Platform
 ### Advanced End-to-End Data Engineering, OLAP Analytics, Machine Learning & Interactive BI Web Application
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg?logo=python&logoColor=white)](https://python.org)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🌟 Project Overview
+##  Project Overview
 
 This project elevates a traditional SQL analysis repository into an **enterprise-grade, production-ready Quick-Commerce Data Intelligence Platform** modeled on **Zepto**, India’s leading 10-minute grocery delivery startup.
 
@@ -25,24 +25,7 @@ This platform bridges the entire modern data lifecycle:
 
 ---
 
-## 🚀 Before vs After: What Changed?
-
-| Feature / Dimension | 🛑 Original Project | ⚡ Upgraded Advanced Platform |
-| :--- | :--- | :--- |
-| **Data Architecture** | Single flat CSV file | Normalized Star Schema (`dim_category`, `dim_product`, `fact_inventory`) |
-| **Database Engines** | Manual PostgreSQL script | Embedded **DuckDB OLAP** + **SQLite**, fully indexed & automated |
-| **Data Hygiene & ETL** | Manual `DELETE` and `UPDATE` statements | Automated Python ETL pipeline (`src/etl_pipeline.py`) with anomaly audits |
-| **Analytical SQL** | 8 basic `SELECT` queries with simple `GROUP BY` | 25+ production-grade queries with Window Functions, CTEs, and Pareto running totals |
-| **Inventory Science** | Basic price sorting | **Pareto ABC Classification** (80/20), **Safety Stock & ROP Models** |
-| **Data Science & ML** | None | **K-Means Catalog Archetype Clustering**, Price Elasticity Simulation |
-| **Logistics Modeling** | Total weight sum | **Dark Store Delivery Payload Optimization** (Revenue Density ₹/kg) |
-| **Visualization & BI** | None | Interactive **Streamlit Dashboard** + 6 publication-grade high-res charts |
-| **Automation & CLI** | Manual execution | Master CLI (`python run_project.py --all`) with single-command orchestration |
-| **Testing & Quality** | No testing | Automated test suite (`tests/test_pipeline.py`) validating schema and math |
-
----
-
-## 📊 Executive Business Scorecard (Dark Store Snapshot)
+##  Executive Business Scorecard (Dark Store Snapshot)
 
 | Metric | Measured Value | Business Interpretation |
 | :--- | :--- | :--- |
@@ -56,7 +39,7 @@ This platform bridges the entire modern data lifecycle:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
                       +-----------------------------+
@@ -116,7 +99,7 @@ This platform bridges the entire modern data lifecycle:
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 Zepto-Inventory-And-Sales-Analysis/
@@ -173,7 +156,7 @@ Zepto-Inventory-And-Sales-Analysis/
 
 ---
 
-## 💻 Sample Advanced SQL OLAP Highlights
+##  Sample Advanced SQL OLAP Highlights
 
 ### 1. Cumulative Pareto Revenue Contribution (Window Function)
 ```sql
@@ -223,7 +206,7 @@ FROM zepto_inventory_master;
 
 ---
 
-## 🤖 Machine Learning Archetype Clustering
+##  Machine Learning Archetype Clustering
 
 Using normalized K-Means clustering ($k=4$), products are automatically grouped into strategic retail archetypes:
 1. **Everyday Fast-Movers & Staples**: High stock depth, everyday price point, steady churn (e.g. Milk, Onions, Bread).
@@ -233,7 +216,7 @@ Using normalized K-Means clustering ($k=4$), products are automatically grouped 
 
 ---
 
-## ⚡ Quickstart Guide
+##  Quickstart Guide
 
 ### 1. Clone & Set Up Environment
 ```bash
@@ -267,7 +250,7 @@ python -m unittest tests/test_pipeline.py
 
 ---
 
-## 📈 Strategic Business Takeaways
+##  Strategic Business Takeaways
 
 1. **Protect Class A Revenue**: 1,129 SKUs drive 70% of inventory valuation. Never allow stockouts on these critical anchors.
 2. **Eliminate Class C Bloat**: 1,263 SKUs generate only 10% of value while consuming shelf capacity and labor time. Rationalize the bottom 10%.
@@ -276,6 +259,6 @@ python -m unittest tests/test_pipeline.py
 
 ---
 
-## 📜 License & Acknowledgments
+##  License & Acknowledgments
 - Dataset originally sourced from Kaggle (Zepto public scraped catalog).
 - Developed for professional Data Engineering, Analytics Engineering, and Quick-Commerce Strategy portfolios.
