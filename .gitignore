@@ -32,3 +32,7 @@ Thumbs.db
 
 # Large raw archive if needed
 *.zip
+
+# Local Interview & Master Guides (Never commit to Git)
+Zepto_Master_Guide_And_Interview_Prep.*
+*Interview_Prep*
